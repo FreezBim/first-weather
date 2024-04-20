@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(24, 24, 116);
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Задает высоту body равной высоте вьюпорта */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Центрирует контейнер по вертикали и горизонтали */
+}
+
+.center-container {
+    position: relative;
+    display: inline-block; /* Элемент занимает только необходимую ширину */
+}
+
+.center-image {
+    width: 100%; /* Чтобы картинка заполняла контейнер */
+    display: block; /* Убирает нижний отступ под картинкой */
+}
+
+.centered-input {
+    position: absolute;
+    top: 50%; /* Позиционируем по центру контейнера */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Сдвигаем input на 50% его ширины и высоты назад */
+    z-index: 10; /* Убедитесь, что input находится поверх картинки */
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.Temperature {
+    position: absolute;
+    top: 33%; /* Позиционируем по центру контейнера */
+    left: 50%;
+    transform: translate(-55%, -90%); /* Сдвигаем input на 50% его ширины и высоты назад */
+    z-index: 20; /* Убедитесь, что input находится поверх картинки */
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.Gg {
+    position: absolute;
+    top: 36%; /* Позиционируем по центру контейнера */
+    left: 50%;
+    transform: translate(-40%, -30%); /* Сдвигаем input на 50% его ширины и высоты назад */
+    z-index: 20; /* Убедитесь, что input находится поверх картинки */
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.Saint {
+    position: absolute;
+    top: 33%; /* Позиционируем по центру контейнера */
+    left: 50%;
+    transform: translate(-39%, -190%); /* Сдвигаем input на 50% его ширины и высоты назад */
+    z-index: 20; /* Убедитесь, что input находится поверх картинки */
+    border-radius: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.loupe {
+    width: 30px;
+    position: absolute;
+    top: 50%; /* Позиционируем по центру контейнера */
+    left: 50%;
+    transform: translate(12vh, -50%); /* Сдвигаем input на 50% его ширины и высоты назад */
+    z-index: 10; /* Убедитесь, что input находится поверх картинки */
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(128, 131, 131, 0.795);
+    cursor:pointer;
+}
+.MIG {
+    width:100px;
+    position: absolute;
+    top: 56%;
+    left: 46%;
+    z-index: 10;
+}
